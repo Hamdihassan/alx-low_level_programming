@@ -1,17 +1,29 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  *main - prints negative or positive
  */
-int main(void)
-int(n)
-if {
-print"if the number is greater than 0: is positive"
-}
-elseif{
-print"if the number is 0: is zero"
-}
+int main()
 {
-else
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0)
 {
-print"if the number is less than 0: is negative"
-};
+printf("is positive");
+}
+elseif(n = 0)
+{
+printf("is zero");
+}
+
+elseif(n < 0)
+
+{
+printf("is negative");
+return (0);
+
+}
+}
+
