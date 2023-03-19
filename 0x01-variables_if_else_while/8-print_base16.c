@@ -3,19 +3,21 @@
 * main - program that print base 16 in lowercase
 *Return: 0
 */
-
 int main(void)
 {
-int i;
+
+int n;
 char ch;
-for (i = 48; i <= 58; i++)
+
+for (n = 48; n < 58; n++)
 {
-putchar(i);
+	putchar(n);
 }
 for (ch = 'a'; ch <= 'f'; ch++)
 {
-putchar(ch);
+	putchar(ch);
 }
 putchar('\n');
 return (0);
 }
+
