@@ -6,18 +6,17 @@
 
 int main(void)
 {
-int i;
+        int n;
 
-for (i = 48; i < 58; i++)
-{
-putchar(i);
-if (n != 57)
-{
-putchar(',');
-putchar(' ');
-
-
-}
-putchar('\n');
-return (0);
+        for (n = 48; n < 58; n++)
+        {
+                putchar(n);
+                if (n != 57)
+                {
+                        putchar(',');
+                        putchar(' ');
+                }
+        }
+        putchar('\n');
+        return (0);
 }
