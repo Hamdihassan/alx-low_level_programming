@@ -9,7 +9,7 @@ char alphabets = 'a';
 while (alphabets <= 'z')
 {
 _putchar(alphabets);
-alphabets++
+alphabets++;
 }
 _putchar('\n');
 }
