@@ -1,18 +1,17 @@
 #include "main.h"
 /**
-* print_alphabet_x10 - prints alphabetsx10
-* Return: 0 Always
-*/
+ * print_alphabet_x10 - print alphabetx10
+ */
 void print_alphabet_x10(void)
 {
-char ch;
-int i;
-for (i = 0; i < 10; i++)
+char letter;
+int num;
+for (num = 0; num < 10; num++)
 {
-for (ch = 'a';  ch <= 'z'; ch++)
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+_putchar(letter);
 }
-{
-_putchar(ch);
 _putchar('\n');
 }
 }
