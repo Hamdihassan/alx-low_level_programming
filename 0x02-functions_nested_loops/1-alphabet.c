@@ -10,7 +10,6 @@ while (alphabets <= 'z')
 {
 _putchar(alphabets);
 alphabets++
-_putchar('\n');
 }
-return (0);
+_putchar('\n');
 }
