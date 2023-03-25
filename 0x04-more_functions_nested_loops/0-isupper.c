@@ -2,10 +2,10 @@
 
 /**
  * _isupper - check the code.
- *@c:c is integer
+ *@x:x is integer
  * Return: 1 if c is uppercase, otherwise 0.
  */
-int _isupper(int c)
+int _isupper(int x)
 {
 	if (x >= 65 && x <= 90)
 	{
