@@ -14,6 +14,8 @@ void print_rev(char *s)
 		s++;
 	}
 	s--;
+	int _putchar(char c);
+
 		while (len > 0)
 		{
 			s--;
