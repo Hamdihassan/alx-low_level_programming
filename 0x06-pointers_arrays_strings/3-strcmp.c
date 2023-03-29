@@ -20,5 +20,5 @@ return (s1 - s2);
 }
 i++;
 }
-
+return (0);
 }
