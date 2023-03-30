@@ -11,8 +11,10 @@ int x;
 
 x = 0;
 
-while (!(s[x] >= 'a' && s[x] <= 'z'))
+while (s[x])
 {
+while (!(s[x] >= 'a' && s[x] <= 'z'))
+
 x++;
 if (s[x - 1] == ' ' ||
 	s[x - 1] == '\t' ||
