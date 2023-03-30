@@ -21,8 +21,8 @@ if (s[n] == s1[m])
 s[n] = s2[m];
 }
 }
-return (s);
 }
+return (s);
 }
 
 
