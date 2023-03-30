@@ -1,30 +1,27 @@
 #include "main.h"
 /**
  * *leet - encodes string
- * @s: string
+ * @a: string
  * Return: string
  */
-char *leet(char *s)
+char *leet(char *a)
 {
-int n;
-int m;
+int i;
+int j;
 
-char s1[] = 'aAeEoOtTlL';
-char s2[] = '4433007711';
+char s1[] = "aAeEoOtTlL";
+char s2[] = "4433007711";
 
-for (n = 0; a[n] != '\0'; n++)
+for (i = 0; a[i] != '\0'; i++)
 {
-for (m = 0; m < 10; m++)
+for (j = 0; j < 10; j++)
 {
-if (s[n] == s1[m])
+if (a[i] == s1[j])
 {
-s[n] = s2[m];
+a[i] = s2[j];
 }
 }
 }
-return (s);
+return (a);
 }
-
-
-
 
