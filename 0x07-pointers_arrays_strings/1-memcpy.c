@@ -12,6 +12,8 @@ int i;
 int m;
 
 int i = 0;
+int m = n;
+
 for (; i < m; i++;)
 {
 	dest[i] = src[i];
