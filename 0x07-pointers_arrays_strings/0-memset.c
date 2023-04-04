@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * *_memset - function that fills memory with a constant byte
- * @s: string
+ * @s: address of memory to fill
  * @b: address of memory to print
  * @n: size of memory to print
  * Return: 0
@@ -13,5 +13,10 @@ int i;
 
 i = 0;
 
-while (i < n)
-
+for (; n > 0; i++)
+{
+	s[i] = b;
+	n--;
+}
+return (s);
+}
