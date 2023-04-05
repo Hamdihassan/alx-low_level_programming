@@ -42,4 +42,5 @@ sum2 = 0;
 	printf("%d, %d\n", sum1, sum2);
 
 }
-
+return (0);
+}
