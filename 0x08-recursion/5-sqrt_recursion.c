@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _tmp - helper function
+ * _helper - helper function
  * @x: integer
  * @n: integer
  * Return: n
  */
 
-int _tmp(int n, int x)
+int _helper(int n, int x)
 {
 	if (x * x > n)
 	{
@@ -18,7 +18,7 @@ int _tmp(int n, int x)
 	}
 	else
 	{
-		return (_tmp(n, x + 1));
+		return (_helper(n, x + 1));
 }
 /**
  *  _sqrt_recursion - returns the natural square root of a number
@@ -33,7 +33,7 @@ int _sqrt_recursion(int n)
 	}
 	else
 
-		return (_tmp(n, 0));
+		return (_helper(n, 0));
 
 }
 }
