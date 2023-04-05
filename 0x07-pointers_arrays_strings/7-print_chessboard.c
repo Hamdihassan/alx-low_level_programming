@@ -23,8 +23,8 @@ for (j = 0; j < 8; j++)
 
 	_putchar(a[k][j]);
 
-	_putchar('\n');
+_putchar('\n');
 
-}
+	}
 
 }
