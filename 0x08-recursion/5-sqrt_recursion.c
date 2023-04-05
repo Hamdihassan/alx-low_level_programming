@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _helper - helper function
  * @x: integer
@@ -20,6 +21,7 @@ int _helper(int n, int x)
 	{
 		return (_helper(n, x + 1));
 }
+
 /**
  *  _sqrt_recursion - returns the natural square root of a number
  *  @n: integer
@@ -32,5 +34,7 @@ int _sqrt_recursion(int n)
 		return (-1);
 	}
 	else
+
 		return (_helper(n, 0));
 }
+
