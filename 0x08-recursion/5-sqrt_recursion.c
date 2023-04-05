@@ -3,7 +3,7 @@
  * _tmp - helper function
  * @x: integer
  * @n: integer
- * Return: 0
+ * Return: n
  */
 
 int _tmp(int n, int x)
@@ -23,7 +23,7 @@ int _tmp(int n, int x)
 /**
  *  _sqrt_recursion - returns the natural square root of a number
  *  @n: integer
- *  Return: 0
+ *  Return: n
  */
 int _sqrt_recursion(int n)
 {
