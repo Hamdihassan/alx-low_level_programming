@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _helper - The helper of natural square root
+ * _tmp - The helper of natural square root
  * @n: character
  * @s: character
  * Return: n
  */
 
-int _helper(int n, int s)
+int _tmp(int n, int s)
 {
 	if (s * s > n)
 	{
@@ -18,7 +18,7 @@ int _helper(int n, int s)
 	return (s);
 	}
 	else
-	return (_helper(n, s + 1));
+	return (_tmp(n, s + 1));
 }
 /**
  * _sqrt_recursion - the natural square root of a number
@@ -33,5 +33,5 @@ int _sqrt_recursion(int n)
 	return (-1);
 	}
 	else
-	return (_helper(n, 0));
+	return (_tmp(n, 0));
 }
