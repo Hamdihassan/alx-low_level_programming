@@ -10,17 +10,17 @@
 
 void *malloc_checked(unsigned int b)
 {
-int i;
+int n;
 
 void *ptr = (int *)malloc(n * sizeof(int));
 
-if (i == NULL)
+if (ptr == NULL)
 {
 	exit(98);
 }
 else
 {
-	return (ptr);
+	return (n);
 }
 
 }
