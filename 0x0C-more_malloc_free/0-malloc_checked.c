@@ -12,7 +12,7 @@ void *malloc_checked(unsigned int b)
 {
 int *ptr;
 
-void *ptr = malloc(b);
+*ptr = malloc(b);
 
 if (ptr == NULL)
 {
@@ -20,7 +20,7 @@ if (ptr == NULL)
 }
 else
 {
-	return (b);
+	return (ptr);
 }
 
 }
