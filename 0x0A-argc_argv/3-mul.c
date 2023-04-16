@@ -6,34 +6,29 @@
  * main - multiplies 2 numbers
  * @argc: argument count
  * @argv: argument vector
- * @x: integer1
- * @y: integer2
- * Return: 0
+ * Return: 0 on success, 1 on error
  */
 
 int main(int argc, char *argv[])
 {
-int x;
-int y;
-int result;
+int x, result = 0;
 
-result = x * y;
-
-for (y = 0; y < result; y++)
-{
-for (x = 0; x < result; x++)
-{
+result *= atoi(argv[x]);
 if (argc == 2)
 {
-	printf("%d" "%d\n", result, argc);
+	for (x = 0; x < result; x++)
+
+{
+	printf("%d\n", result);
 }
+return (0);
 
 else
 {
-	printf("Error");
-}
-}
-return (1);
+	printf("Error\n");
 }
 
+return (1);
+
+}
 }
