@@ -11,26 +11,26 @@
 
 int main(int argc, char *argv[])
 {
-int x; 
-int y; 
+int x;
+int y;
 int result;
 
-x = atoi(argv[1]);
-y = atoi(argv[2]);
-result = x * y;
+	x = atoi(argv[1]);
+	y = atoi(argv[2]);
+	result = x * y;
 
 for (x = 0; x < result; x++)
-if (argc == 3)
-{
-	printf("%d\n", result);
 
-	return (0);
-}
-else
+if (argc < 3 || argc > 3)
 {
 	printf("Error\n");
 
 	return (1);
+}
+else
+{
+	printf("%d\n", result);
 
+	return (0);
 }
 }
