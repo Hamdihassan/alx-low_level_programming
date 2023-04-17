@@ -2,12 +2,10 @@
 #define dog_h
 
 /**
- * struct dog: structure data type
- * @name: member 1
- * @age: member 2
- * @owner: member 3
- *
- * Description: typedef struct dog
+ * struct dog - structure data type
+ * @name: member1
+ * @age: member2
+ * @owner: member3
  * Return: 0
  */
 
