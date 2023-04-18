@@ -13,8 +13,10 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-struct dog d;
-	printf("%s, %d, %s", d->name, d->age, d->owner);
+while (d != \0)
+{
+	malloc(sizeof(struct dog));
 
+	("%s, %1f, %s", d->name, d->age, d->owner)
 }
 
