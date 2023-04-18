@@ -10,13 +10,10 @@
  * @owner: member variable
  * Return: 0
  */
-struct grey_dog
-{
-	char *name;
-	float age;
-	char *owner;
-};
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
+	while (d != \0)
+	printf("%s, %d, %s", d.name, d.age, d.owner);
 }
 
