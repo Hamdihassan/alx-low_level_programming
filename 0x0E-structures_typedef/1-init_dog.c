@@ -13,10 +13,11 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-while (d != \0)
-{
-	malloc(sizeof(struct dog));
+//while (d != \0)
+//	malloc(sizeof(struct dog));
+//	("%s, %1f, %s", d->name, d->age, d->owner)
+struct dog d;
 
-	("%s, %1f, %s", d->name, d->age, d->owner)
+strcpy("%s, %1f, %s", d->name, d->age, d->owner);
 }
 
