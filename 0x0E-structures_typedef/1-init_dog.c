@@ -18,6 +18,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 //	("%s, %1f, %s", d->name, d->age, d->owner)
 struct dog d;
 
-strcpy("%s, %1f, %s", d->name, d->age, d->owner);
+init_dog(&d, "Poppy", 3.5, "Bob");
+//strcpy("%s, %1f, %s", d->name, d->age, d->owner);
 }
 
