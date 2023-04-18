@@ -10,12 +10,12 @@
  * @owner: member variable
  * Return: 0
  */
-grey_dog
+struct grey_dog
 {
 	char *name;
 	float age;
 	char *owner;
-} *d;
+};
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 }

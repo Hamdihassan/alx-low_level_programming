@@ -8,13 +8,12 @@
  * @owner: member3
  * Return: 0
  */
-
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-} grey_dog;
+} *d;
 
 /**
  * init_dog - initializes structure
@@ -24,7 +23,9 @@ typedef struct dog
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 typedef struct dog grey_dog;
-
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 
 
 
