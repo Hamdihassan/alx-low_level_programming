@@ -13,7 +13,7 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-} *d;
+};
 
 /**
  * init_dog - initializes structure
