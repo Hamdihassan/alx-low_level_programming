@@ -26,11 +26,11 @@ char *_strdup(char *str)
 
 	if (aaa == NULL)
 
-		return (NULL);
+		return (NULL)
 
 	for (r = 0; str[r]; r++)
 
-		aaa[r] = str[r]
+		aaa[r] = str[r];
 
 			return (aaa);
 }
