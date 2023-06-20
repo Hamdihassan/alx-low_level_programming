@@ -1,5 +1,4 @@
 #include <stdio.h>
-/* #define _MYFILE_*/
 
 /**
  * main - main function
