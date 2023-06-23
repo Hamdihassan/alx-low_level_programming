@@ -1,14 +1,14 @@
 #include <stdio.h>
-#include "function_pointer.h"
+#include "function_pointers.h"
 
 /**
  * array_interior - prints array
  * @array: array element
- * @size: size of element
+ * @size: size of array
  * @action: pointer
  */
 
-void array_iterator(int *array, size_t size, void (*action)(int));
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int j;
 
