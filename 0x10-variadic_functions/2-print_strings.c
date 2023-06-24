@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <string.h>
-#include "variadic_functions_h"
+#include "variadic_functions.h"
 
 /**
  * print_strings - prints strings
@@ -19,7 +19,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	va_start(args, n);
 
-	for (j = 0; j < args; j++)
+	for (j = 0; j < n; j++)
 
 	{
 		str = va_arg(args, char *);
@@ -36,11 +36,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 		printf("\n");
 
-
-				}
 				va_end(args);
 
-
 }
-
-
