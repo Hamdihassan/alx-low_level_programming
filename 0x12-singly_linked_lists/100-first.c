@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "lists.h"
+#include <string.h>
+#include <stdlib.h>
 
 void calledFirst(void) __attribute__ ((constructor));
 
