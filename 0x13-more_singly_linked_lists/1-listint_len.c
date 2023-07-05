@@ -6,6 +6,7 @@
  * @h: pointer
  *
  * Description: counts no.of elements
+ *
  * return: number of elements
  */
 
