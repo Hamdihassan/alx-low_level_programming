@@ -10,7 +10,7 @@
 char *_strdup(char *str)
 
 {
-	char *aaa;
+	char *ppt;
 	int i, r = 0;
 
 	if (str == NULL)
@@ -22,16 +22,16 @@ char *_strdup(char *str)
 
 		i++;
 
-	aaa = malloc(sizeof(char) * (i + 1));
+	ppt = malloc(sizeof(char) * (i + 1));
 
-	if (aaa == NULL)
+	if (ppt == NULL)
 
 		return (NULL);
 
 	for (r = 0; str[r]; r++)
 
-		aaa[r] = str[r];
+		ppt[r] = str[r];
 
-			return (aaa);
+			return (ppt);
 }
 
